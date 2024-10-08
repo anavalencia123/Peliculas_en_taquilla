@@ -3,11 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #0e0d0d;
 }
 
 header {
-    background-color: #333;
+    background-color:#41054e;
     color: white;
     text-align: center;
     padding: 1rem;
@@ -98,7 +98,7 @@ input[type="number"] {
 
 button {
     padding: 10px; 
-    background-color: #333; 
+    background-color: #8e2d98; 
     color: white; 
     border: none; 
     border-radius: 5px;
@@ -108,7 +108,7 @@ button {
 }
 
 button:hover {
-    background-color: #555; 
+    background-color: #d332d3; 
 }
 
 .oculto {
