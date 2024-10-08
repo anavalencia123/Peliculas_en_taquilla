@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+#peliculas {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: flex-start; 
+    margin: 20px; 
+}
+
+
+.pelicula {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 48%; 
+    margin: 1%; 
+    box-sizing: border-box; 
+}
+
+
+.pelicula-container {
+    margin-bottom: 10px;
+}
+
+.pelicula-buttons {
+    margin-top: 10px;
+}
+
+
+#reseña-form, #reserva-form {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+    width: 90%; 
+    max-width: 500px; 
+    margin: 20px auto; 
+}
+
+/* Textarea para reseñas */
+textarea {
+    padding: 10px; /* Espaciado interno del textarea */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #ddd; /* Borde del textarea */
+    resize: none; /* Evita el redimensionamiento del textarea */
+    font-size: 0.9rem; /* Tamaño de fuente */
+    min-height: 100px; /* Altura mínima para el textarea */
+}
+.estrellas {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 10px; 
+}
+
+.estrellas input {
+    display: none; 
+}
+
+.estrellas label {
+    font-size: 2rem; 
+    color: #ddd; 
+    cursor: pointer; 
+
+.estrellas input:checked ~ label {
+    color: #f39c12; 
+}
+
+.estrellas label:hover,
+.estrellas label:hover ~ label {
+    color: #f39c12;
+}
+
+
+
+input[type="number"] {
+    padding: 10px; 
+    border-radius: 5px; 
+    border: 1px solid #ddd;
+    font-size: 0.9rem; 
+}
+
+
+button {
+    padding: 10px; 
+    background-color: #333; 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    font-size: 0.9rem; 
+}
+
+button:hover {
+    background-color: #555; 
+}
+
+
+.oculto {
+    display: none;
+}
+}
