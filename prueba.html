@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+    display: flex;
+    width: 600px;
+    height: 500px;
+}
+section img{
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: 5;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+    </style>
+</head>
+<body>
+    <section id="prueba de imagenes">
+        <img src="https://i.pinimg.com/236x/71/98/2e/71982e3193018e4553ab191558a91c7e.jpg">
+        <img src="https://i.pinimg.com/236x/3a/45/bb/3a45bbf6e27347570babeaa09d345c48.jpg">
+        <img src="https://i.pinimg.com/236x/8b/48/42/8b48429fc19ef6a312ac24acef0bb041.jpg">
+        <img src="https://i.pinimg.com/474x/2c/9d/31/2c9d31237628665ff9e4d3e01d13731f.jpg">
+        <img src="https://i.pinimg.com/236x/87/9e/53/879e5361c87b5a201028aca69bf303fe.jpg">
+
+    </section>
+</body>
+</html>

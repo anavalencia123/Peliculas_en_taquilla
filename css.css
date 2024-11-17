@@ -7,11 +7,31 @@ body {
 }
 
 header {
-    background-color:#41054e;
+    background-color:#05447a;
     color: white;
     text-align: center;
     padding: 1rem;
 }
+/*para las imagenes corredizas*/
+#galeria{
+    display: flex;
+    width: 600px;
+    height: 500px;
+}
+#galeria img{
+    width: 0%;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .9;
+    transition: 5;
+}
+#galeria img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
 
 #peliculas {
     display: flex; 
@@ -19,6 +39,7 @@ header {
     justify-content: flex-start; 
     margin: 20px; 
 }
+
 
 .pelicula {
     background-color: white;
@@ -98,7 +119,7 @@ input[type="number"] {
 
 button {
     padding: 10px; 
-    background-color: #8e2d98; 
+    background-color: #01042e; 
     color: white; 
     border: none; 
     border-radius: 5px;
@@ -108,8 +129,10 @@ button {
 }
 
 button:hover {
-    background-color: #d332d3; 
+    background-color: #01042e; 
 }
+
+
 
 .oculto {
     display: none;
